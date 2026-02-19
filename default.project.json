@@ -15,9 +15,15 @@
       "Assets": {
         "$className": "Folder",
         "ChairModel": {
-          "$className": "RemoteEvent"
+          "$className": "Model",
+          "Base": {
+          "$className": "Part",
+          "Seat": {
+          "$className": "Seat"
+          }
+         }
         }
-      },
+      }
     },
 
     "ServerScriptService": {
