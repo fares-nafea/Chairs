@@ -4,45 +4,19 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-      "Remotes": {
-        "$className": "Folder",
-        "$path": "src/shared",
-        "UpdateTimer": {
-          "$className": "RemoteEvent"
-        }
-      },
-      "Assets": {
-        "$className": "Folder",
-        "ChairModel": {
-          "$className": "Model",
-          "Base": {
-          "$className": "Part",
-          "Seat": {
-          "$className": "Seat"
-          }
-         }
-        }
+      "Shared": {
+        "$path": "src/shared"
       }
     },
 
     "ServerScriptService": {
-      "$className": "ServerScriptService",
       "Server": {
-        "$path": "src/server",
-        "LeaderstatsManager": {
-          "$path": "src/server/LeaderstatsManager.server.lua"
-        },
-        "GameManager": {
-          "$path": "src/server/GameManager.server.lua"
-        }
+        "$path": "src/server"
       }
     },
 
     "StarterPlayer": {
-      "$className": "StarterPlayer",
       "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
         "Client": {
           "$path": "src/client"
         }
